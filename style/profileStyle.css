@@ -1,0 +1,127 @@
+/* Import font */
+@font-face {
+    font-family: 'bakeryFont';
+    src: url('/fonts/Sauce Tomato.otf') format('opentype');
+}
+
+/* Overall structure */
+body {
+    text-align: center;
+    font-family: 'bakeryFont', sans-serif;
+    font-size: 21px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+.inverse {
+    color: #FDF9CE;
+    background: #583913;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 50;
+} 
+
+img{
+    border-radius: 50%;
+    width: 300px;
+}
+/* typography */
+h1,
+h2 {
+    font-weight: 300; 
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
+    
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+/* emphasis text */
+.accent-text {
+    display: block;
+    color: #6F2A2A;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+}
+
+.inverse .accent-text,
+.name,
+time {
+    font-weight: 900;
+    color: #F1DADA;
+}
+
+
+/* Links */
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+
+/* Links button */
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
+}
+
+.btn {
+    display: inline-block;
+    color: #252525;
+    text-decoration: none;
+    background: #FBC02D;
+    padding: 10px 25px;
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #252525;
+    color: #fff;
+}
